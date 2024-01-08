@@ -1,0 +1,182 @@
+body {
+    margin: 0 auto;
+    padding: 0;
+    background-color: #faf6f6;
+}
+
+#wrapper {
+    width: 100%;
+    margin: 0 auto;
+}
+
+#logo {
+    display: flex;
+    position: fixed;
+    max-height: 75px;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+    border-radius: 10%;
+}
+
+#mainnav {
+    margin-top: 80px;
+    background-color: #edebe3; 
+    padding: 0px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#mainnav nav ul {
+    text-align: left;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+#mainnav nav ul li {
+    display: inline-block;
+    padding: 10px 30px;
+}
+
+#mainnav nav ul li:hover {
+    background-color: white;
+}
+
+#mainnav nav a {
+    text-decoration: none;
+    color: darkgreen; 
+}
+
+#mainnav main {
+    margin-top: 60px; 
+}
+
+#DonateButton {
+    margin-top: 150px;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 700px;
+    background-color: green;
+}
+
+.swiper {
+    width: 100%;
+    height: 700px;
+    overflow: hidden;
+    position: relative;
+}
+
+.swiper img {
+    width: 100%;
+    height: 700px;
+    position: absolute;
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+.swiper img.active {
+    opacity: 1;
+}
+
+#AboutUs {
+    width: 85%;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 250px 175px;
+}
+
+#AboutUs h1,p,a {
+    margin: 30px;
+}
+
+.LearnMore {
+    float: right;
+    margin-top: 10%;
+}
+
+.eventbox {
+    width: 550px;
+    height: 600px;
+    background-color: #ddd;
+    margin: 25px;
+    border: 0.2px solid #333;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.event_image {
+    width: 550px;
+    height: 300px;
+    overflow: hidden;
+}
+
+figcaption {
+    width: 550px;
+    height: 350px;
+    margin: 10px;
+}
+
+hr {
+    margin: 0;
+}
+
+#PassEvent table {
+    margin: 100px;
+    padding: 10px;
+}
+
+#donation {
+    margin: 300px 30px;
+}
+
+#donationForm {
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    gap: 10px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+input {
+    padding: 10px;
+    font-size: 16px;
+}
+
+button {
+    padding: 20px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
