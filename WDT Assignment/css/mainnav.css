@@ -180,3 +180,12 @@ button {
 button:hover {
     background-color: #45a049;
 }
+
+input {
+    border: none;
+    border-bottom: 1px solid;
+}
+
+input :focus{
+    outline: none;
+}
