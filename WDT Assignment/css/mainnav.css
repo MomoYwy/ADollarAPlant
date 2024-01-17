@@ -148,7 +148,9 @@ h1 {
 }
 
 .HistoricalEvent {
-    width: 30%;
+    background-color: grey;
+    width: 80%;
+    height: 30%;
     margin: 0 auto;
 }
 
