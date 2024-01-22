@@ -29,3 +29,14 @@ function startSwiper() {
     showImage();
     setInterval(nextImage, 3000);
 }
+
+const body = document.body;
+const initialColor = getComputedStyle(body).backgroundColor;
+
+window.addEventListener('scroll', () => {
+    if (window.scrollY > 0) {
+        body.style.backgroundColor = '#f0f0f0';
+    } else {
+        body.style.backgroundColor = initialColor;
+    }
+});
