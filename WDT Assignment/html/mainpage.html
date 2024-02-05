@@ -25,6 +25,11 @@
             <hr></nav>
         </header>
 
+        <!--Login Button-->
+        <header id="loginButton">
+            <button id="loginButton">Login</button>
+        </header>
+        <script src="../javasript/mainpage.js"></script>
         <!--Donate Button-->
         <div id="DonateButton">
             <div class="swiper">
@@ -32,7 +37,11 @@
                 <img src="" alt="mainimage2"><a href="">DONATE</a>
                 <img src="" alt="mainimage3"><a href="">DONATE</a>
             </div>
-            <script src="../javasript/mainpage.js"> startSwiper()</script>
+            <script>
+                document.getElementById('loginButton').addEventListener('click', function() {
+                    window.location.href = 'login.html';
+                });
+            </script>
         </div>
 
         <!--About Us-->
