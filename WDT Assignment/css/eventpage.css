@@ -1,0 +1,28 @@
+.event-box-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.event-box {
+	background-color: #f2f2f2;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+	margin: 10px;
+	padding: 15px;
+	width: 30%;
+}
+
+.event-box h2 {
+	margin-top: 0;
+}
+
+.event-box h3 {
+	color: #666;
+	margin-bottom: 10px;
+}
+
+.event-box p {
+	margin: 0;
+}
