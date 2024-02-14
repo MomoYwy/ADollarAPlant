@@ -46,7 +46,6 @@ document.getElementById('loginButton').addEventListener('click', function() {
     window.location.href = 'http://127.0.0.1:5501/WDT%20Assignment/html/login.html';
 });
 
-document.getElementById("Donate").addEventListener('click', function() {
-    // Redirect to the donation page
-   window.location.href = 'http://127.0.0.1:5501/WDT%20Assignment/html/donation.html';
-   });
+
+startSwiper()
+
