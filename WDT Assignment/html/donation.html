@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/donation.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="donation-container">
+        <h1>Donation</h1>
+        <form id="donation">
+            <label for="amount">Amount(RM):</label>
+            <input type="number" id="amount" name="amount" min="1" required>
+
+            <label for="anonymous">Anonymous Donation:</label>
+            <input type="checkbox" class="anonymous" name="anonymous">
+
+            <label for="name">If no, Please Enter Your Name:</label>
+            <input type="text" id="name" name="name">
+
+            <label for="payment">Payment Method:</label>
+            <input type="tel" id="contact" name="contact" required>
+
+            <button class='submit'  type="submit">Donate</button>
+        </form>
+    <header>
+        <button id="backButton" class="backButton">Back</button>
+    </header>
+    <script src="../javasript/login.js"></script>
+    </div>    
+    
+</body>
+</html>
