@@ -46,6 +46,10 @@ body {
     border-bottom: 1px solid;
         }
 
+    input:focus{
+        border: 1px solid #000;
+    }
+
     button {
     padding: 10px;
     background-color: #4caf50;
