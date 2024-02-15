@@ -107,6 +107,11 @@ body {
     margin-top: 10%;
 }
 
+#Events h1{
+    display:inline;
+    margin-left: 600px;
+}
+
 .eventbox {
     width: 550px;
     height: 600px;
@@ -116,6 +121,8 @@ body {
     overflow: hidden;
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
+    place-content: center;
 }
 
 .container {
@@ -214,7 +221,7 @@ header {
     text-align: right;
 }
 
-button {
+.donate {
     background-color: #4CAF50;
     color: white;
     padding: 10px 15px;
@@ -223,7 +230,7 @@ button {
     border-radius: 5px;
 }
 
-button:hover {
+.donate:hover {
     background-color: #45a049;
 }
 
@@ -259,4 +266,17 @@ footer {
     text-align: center;
     padding-top: 10px;
     background-color: black;
+}
+
+.loginButton {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.loginButton:hover {
+    background-color: #45a049;
 }
