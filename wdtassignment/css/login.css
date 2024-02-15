@@ -76,7 +76,7 @@ body {
         text-align: left;
     }
         
-    #backButton {
+    .backButton {
         position: absolute;
         background-color: #4CAF50;
         color: white;
@@ -90,6 +90,6 @@ body {
         font-size: 15px;
     }
         
-    #backButton:hover {
+    .backButton:hover {
         background-color: #45a049;
     }

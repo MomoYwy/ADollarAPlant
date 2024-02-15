@@ -43,7 +43,7 @@ window.addEventListener('scroll', () => {
 
 document.getElementById('loginButton').addEventListener('click', function() {
     // Redirect to the login page
-    window.location.href = 'http://127.0.0.1:5501/WDT%20Assignment/html/login.html';
+    window.location.href = 'http://127.0.0.1:5501/wdtassignment/html/mainpage.html';
 });
 
 

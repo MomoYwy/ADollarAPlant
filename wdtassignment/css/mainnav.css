@@ -237,6 +237,47 @@ header {
     background-color: #45a049;
 }
 
+<<<<<<< Updated upstream
+=======
+footer {
+    background-color: black;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.footer-section {
+    flex: 1;
+    padding: 10px;
+}
+
+.footer-section h2 {
+    color: #4caf50;
+    margin-left: 30px;
+}
+
+.social-icon img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding-top: 10px;
+    background-color: black;
+}
+
+.loginB header{
+    background-color: #23d5ab;
+}
+
+>>>>>>> Stashed changes
 .loginButton {
     background-color: #4CAF50;
     color: white;
