@@ -6,7 +6,7 @@ $pass = '';
 
 $connection = new mysqli($host, $user, $pass, $db);
 
-if ($conn->connect_error) {
+if ($connection->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
 
@@ -16,11 +16,10 @@ $eventDate = $_POST['Date'];
 $eventTime = $_POST['Time'];
 $NumberofVolunteer = $_POST['NumberofVolunteer'];
 $venue = $_POST['Venue'];
-$organizerID = $_POST['organizerID'];
 
-$sql = "INSERT INTO `event` (`EventName`, `organizer`, `Date`, `Time`, `NumberofVolunteer`, `Venue`, `organizerID`) VALUES ('$eventName', '$organizer', '$eventDate', '$eventTime', '$NumberofVolunteer', '$venue', '$organizerID')";
+$sql = "INSERT INTO `event` (`EventName`, `organizer`, `Date`, `Time`, `NumberofVolunteer`, `Venue`) VALUES ('$eventName', '$organizer', '$eventDate', '$eventTime', '$NumberofVolunteer', '$venue')";
 
-if ($conn->query($sql) === TRUE) {
+if ($connection->query($sql) === TRUE) {
     echo "Event saved successfully";
 } else {
     echo "Error: " . $sql . "<br>" . $conn->error;

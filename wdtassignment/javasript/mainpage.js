@@ -43,14 +43,21 @@ window.addEventListener('scroll', () => {
     }
 });
 
-document.getElementById('loginButton').addEventListener('click', function() {
-    // Redirect to the login page
-    window.location.href = 'http://127.0.0.1:5501/WDT%20Assignment/html/login.html';
-});
+function redirectToLogin() {
+    window.location.href = '/ADollarAPlant/wdtassignment/php/login.php';
+}
 
 document.getElementById("Donate").addEventListener('click', function() {
     // Redirect to the donation page
     window.location.href = 'http://127.0.0.1:5501/WDT%20Assignment/html/donation.html';
+    });
+
+window.addEventListener('load', function() {
+    if (isUserLoggedIn()) {
+        document.body.classList.add('logged-in');
+        document.getElementById('loginButton').style.display = 'none';
+        document.getElementById('profileButton').style.display = 'block';
+    }
     });
 
 startSwiper()
