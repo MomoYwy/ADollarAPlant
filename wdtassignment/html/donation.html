@@ -20,7 +20,11 @@
             <input type="text" id="name" name="name">
 
             <label for="payment">Payment Method:</label>
-            <input type="tel" id="contact" name="contact" required>
+            <select name="method" id="method">
+                <option value="eWallet">E-Wallet</option>
+                <option value="onlineBanking">Online Banking</option>
+                <option value="debitCard">Debit Card</option>
+              </select>
 
             <button class='submit'  type="submit">Donate</button>
         </form>

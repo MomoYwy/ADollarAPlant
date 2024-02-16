@@ -90,6 +90,10 @@ body {
         font-size: 15px;
     }
         
+<<<<<<< Updated upstream
     .backButton:hover {
+=======
+    .back-Button:hover {
+>>>>>>> Stashed changes
         background-color: #45a049;
     }

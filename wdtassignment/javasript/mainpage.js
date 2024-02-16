@@ -46,6 +46,21 @@ document.getElementById('loginButton').addEventListener('click', function() {
     window.location.href = 'http://127.0.0.1:5501/wdtassignment/html/mainpage.html';
 });
 
+<<<<<<< Updated upstream
+=======
+document.getElementById("Donate").addEventListener('click', function() {
+    // Redirect to the donation page
+    window.location.href = 'http://127.0.0.1:5501/WDT%20Assignment/html/donation.html';
+});
+
+window.addEventListener('load', function() {
+    if (isUserLoggedIn()) {
+        document.body.classList.add('logged-in');
+        document.getElementById('loginButton').style.display = 'none';
+        document.getElementById('profileButton').style.display = 'block';
+    }
+    });
+>>>>>>> Stashed changes
 
 startSwiper()
 
