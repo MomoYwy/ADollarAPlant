@@ -186,7 +186,10 @@ h1 {
 
 input {
     padding: 10px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
     font-size: 16px;
+    background-color: #db81a3;
 }
 
 button {
