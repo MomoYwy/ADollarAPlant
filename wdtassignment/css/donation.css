@@ -2,6 +2,7 @@ body {
     display:flex;
     align-items:center;
     justify-content: center;
+    background: linear-gradient(90deg, #2ecc71 60%, #27ae60 40.1%);
     height: 100vh;
     margin: 0;
         }
@@ -72,7 +73,6 @@ input{
     }
             
     header {
-        background-color: #ffffff;
         padding: 10px;
         text-align: left;
     }
