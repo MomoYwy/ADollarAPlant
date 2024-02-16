@@ -176,8 +176,10 @@ h1 {
     align-items: center;
     display: grid;
     gap: 10px;
-    background-color: #ffffff;
-    padding: 20px;
+    background-color: #df6c98;
+    padding: 40px;
+    padding-top: 60px;
+    padding-bottom: 60px;
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
