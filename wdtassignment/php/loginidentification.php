@@ -1,4 +1,6 @@
 <?php
+session_start();
+
 $host = 'localhost';
 $db   = 'wdtassignment';
 $user = 'root';
@@ -18,14 +20,26 @@ $password = $_POST["password"];
 $sql = "SELECT * FROM `member` WHERE `username` = '$username' AND `password` = '$password'";
 $result = $connection->query($sql);
 
+//fetch and store user data
 if ($result->num_rows > 0) {
-    $response = array("success" => true, "username" => $username);
+    $user = $result->fetch_assoc();
+    $_SESSION["user_data"] = $user;
+    $_SESSION["login_success"] = true;
+    header("Location: /ADollarAPlant/wdtassignment/html/mainpage.html");
+    exit();
 } else {
     $response = array("success" => false, "message" => "Incorrect username or password");
 }
 
-$connection->close();
+function isLoggedIn() {
+    if (isset($_SESSION["user_data"])) {
+        return true;
+    } else {
+        return false;
+    }
+}
 
+$connection->close();
 
 header("Content-Type: application/json");
 echo json_encode($response);

@@ -29,7 +29,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     // Execute the SQL query
     if ($connection->query($sql) === TRUE) {
-        echo "Registration successful";
+        header("Location: /ADollarAPlant/wdtassignment/html/login.html");
+        exit();
     } else {
         echo "Error: " . $sql . "<br>" . $connnection->error;
     }

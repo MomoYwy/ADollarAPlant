@@ -22,42 +22,50 @@
             <label for="password">Password:</label>
             <input type="password" id="password" name="password" required>
 
-            <button type="submit" onclick="validateLogin()">Login</button>
+            <button id="loginButton" type="submit" onclick="validateLogin()">Login</button>
+            
         </form>
     </div>
 
     <div class="register-container">
-        <form id="registerForm" action="/ADollarAPlant/wdtassignment/php/register.php" method="POST">
-            <h2>Register</h2>
-            <label for="email">Email</label>
-            <input type="email" id="email" name="email" required>
+    <form id="registerForm" action="/ADollarAPlant/wdtassignment/php/register.php" method="POST">
+        <h2>Register</h2>
 
-            <label for="name">Name</label>
-            <input type="text" id="name" name="name" required>
+        <label for="email">Email</label>
+        <input type="email" id="email" name="Email" placeholder="example@example.com" required>
 
-            <label for="username">Username</label>
-            <input type="text" id="username" name="username" required>
+        <label for="name">Name</label>
+        <input type="text" id="name" name="Name" placeholder="John Doe" required>
 
-            <label for="age">Age</label>
-            <input type="number" id="age" name="age" required>
+        <label for="username">Username</label>
+        <input type="text" id="username" name="Username" placeholder="john_doe123" required>
 
-            <label for="gender">Male</label>
-            <input type="radio" id="gender" name="gender" value="Male" required>
-            <label for="gender">Female</label>
-            <input type="radio" id="gender" name="gender" value="Female" required>
+        <label for="age">Age</label>
+        <input type="number" id="age" name="Age" placeholder="25" required>
 
-            <label for="phone">Phone No.</label>
-            <input type="tel" id="phone" name="phone" placeholder="123-45-678" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"required>
-            
-            <label for="password">Password</label>
-            <input type="password" id="password" name="password" required>
+        <label for="gender">Gender</label>
+        <label for="male">Male</label>
+        <input type="radio" id="male" name="Gender" value="Male" required>
+        <label for="female">Female</label>
+        <input type="radio" id="female" name="Gender" value="Female" required>
 
-            <label for="password">Confirm Password</label>
-            <input type="password" id="password" name="password" required>
+        <label for="phone">Phone No.</label>
+        <input type="tel" id="phone" name="PhoneNumber" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
 
-            <button type="submit" onclick="validateLogin()">Register</button>
-        </form>
-    </div>
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" placeholder="Enter your password" required>
+
+        <label for="Confirmpassword">Confirm Password</label>
+        <input type="password" id="Confirmpassword" name="Confirmpassword" placeholder="Confirm your password" oninput="checkPasswordMatch()" required>
+        <span id="passwordMatch"></span>
+
+        <label for="ICorPassport">IC/Passport</label>
+        <input type="text" id="ICorPassport" name="ICorPassport" placeholder="012345-67-8901" required>
+
+        <button type="submit" onclick="validateLogin()">Register</button>
+    </form>
+</div>
+
 
 </body>
 
