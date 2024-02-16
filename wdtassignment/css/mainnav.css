@@ -176,15 +176,20 @@ h1 {
     align-items: center;
     display: grid;
     gap: 10px;
-    background-color: #ffffff;
-    padding: 20px;
+    background-color: #df6c98;
+    padding: 40px;
+    padding-top: 60px;
+    padding-bottom: 60px;
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 input {
     padding: 10px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
     font-size: 16px;
+    background-color: #db81a3;
 }
 
 button {
@@ -268,7 +273,7 @@ footer {
     background-color: black;
 }
 
-.loginButton {
+.login-button {
     background-color: #4CAF50;
     color: white;
     padding: 10px 15px;
@@ -277,6 +282,6 @@ footer {
     border-radius: 5px;
 }
 
-.loginButton:hover {
+.login-button:hover {
     background-color: #45a049;
 }
