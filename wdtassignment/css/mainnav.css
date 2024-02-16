@@ -273,7 +273,7 @@ footer {
     background-color: black;
 }
 
-.loginButton {
+.login-button {
     background-color: #4CAF50;
     color: white;
     padding: 10px 15px;
@@ -282,6 +282,6 @@ footer {
     border-radius: 5px;
 }
 
-.loginButton:hover {
+.login-button:hover {
     background-color: #45a049;
 }
