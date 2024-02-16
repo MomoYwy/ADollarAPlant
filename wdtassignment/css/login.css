@@ -70,8 +70,8 @@ body {
         font-family: Arial, sans-serif;
     }
         
-    header {
-        background-color: #ffffff;
+    .loginB header {
+        background-color: #23d5ab;
         padding: 10px;
         text-align: left;
     }
