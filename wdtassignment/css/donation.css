@@ -44,6 +44,17 @@ input{
     border-bottom: 1px solid#000000;
 }
 
+select {
+    width: 100%;
+    padding: 16px 20px;
+    margin: 20px;
+    margin-left: 0px;
+    border: none;
+    border-radius: 4px;
+    background-color: #f1f1f1;
+    font-size: 15px;
+  }
+
 .anonymous{
     display: flex;
     flex-direction: row;
