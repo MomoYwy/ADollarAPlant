@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Blog</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+            color: #333;
+            line-height: 1.6;
+        }
+        header {
+            background-color: #343a40;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+        .post {
+            background-color: #fff;
+            padding: 30px;
+            margin-bottom: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+        .post:hover {
+            transform: translateY(-5px);
+        }
+        .post h2 {
+            color: #343a40;
+            margin-bottom: 10px;
+            font-size: 24px;
+        }
+        .post p {
+            color: #666;
+            font-size: 16px;
+        }
+        footer {
+            background-color: #343a40;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        footer a {
+            color: #fff;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+        footer a:hover {
+            color: #ffd700;
+        }
+        .add-post-button {
+            margin-top: 20px;
+        }
+        .add-post-button a {
+            background-color: #007bff;
+            color: #fff;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+        }
+        .add-post-button a:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>My Blog</h1>
+</header>
+
+<div class="container" id="posts-container">
+    <!-- Posts will be dynamically added here -->
+</div>
+
+<footer>
+    &copy; 2024 My Blog | <a href="#">Contact</a>
+    <div class="add-post-button">
+        <a href="..\html\community(add post).html">Add Post</a>
+    </div>
+</footer>
+
+<script>
+    // Load posts from local storage on page load
+    document.addEventListener("DOMContentLoaded", function() {
+        loadPosts();
+    });
+
+    // Function to load posts from local storage
+    function loadPosts() {
+        var postsContainer = document.getElementById("posts-container");
+        postsContainer.innerHTML = localStorage.getItem("posts");
+    }
+</script>
+
+</body>
+</html>
+
