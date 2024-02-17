@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Post</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+            color: #333;
+            line-height: 1.6;
+        }
+        header {
+            background-color: #343a40;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+        .form-group {
+            margin-bottom: 20px;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        input[type="text"],
+        textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        textarea {
+            height: 150px;
+        }
+        input[type="submit"] {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Add Post</h1>
+</header>
+
+<div class="container">
+    <form id="add-post-form">
+        <div class="form-group">
+            <label for="post-title">Post Title:</label>
+            <input type="text" id="post-title" name="post-title" required>
+        </div>
+        <div class="form-group">
+            <label for="post-content">Post Content:</label>
+            <textarea id="post-content" name="post-content" required></textarea>
+        </div>
+        <input type="submit" value="Submit">
+    </form>
+</div>
+
+<script>
+    document.getElementById("add-post-form").addEventListener("submit", function(event) {
+        event.preventDefault();
+
+        // Get values from form
+        var title = document.getElementById("post-title").value;
+        var content = document.getElementById("post-content").value;
+
+        // Create post element
+        var postElement = document.createElement("div");
+        postElement.classList.add("post");
+        postElement.innerHTML = `
+            <h2>${title}</h2>
+            <p>${content}</p>
+        `;
+
+        // Add new post to local storage
+        var posts = localStorage.getItem("posts");
+        if (!posts) {
+            posts = "";
+        }
+        posts += postElement.outerHTML;
+        localStorage.setItem("posts", posts);
+
+        // Redirect back to main blog page
+        window.location.assign("file:///C:/Users/User/Documents/GitHub/ADollarAPlant/wdtassignment/html/Community.html");
+    });
+</script>
+
+</body>
+</html>
+

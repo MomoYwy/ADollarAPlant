@@ -53,7 +53,7 @@ function redirectToProfile() {
 
 document.getElementById("Donate").addEventListener('click', function() {
     // Redirect to the donation page
-    window.location.href = 'http://127.0.0.1:5501/WDT%20Assignment/html/donation.html';
+    window.location.href = '/ADollarAPlant/wdtassignment/html/donation.html';
     });
 
 window.addEventListener('load', function() {
@@ -66,3 +66,6 @@ window.addEventListener('load', function() {
 
 startSwiper()
 
+function goDonate() {
+    window.location.href = '#donation';
+}

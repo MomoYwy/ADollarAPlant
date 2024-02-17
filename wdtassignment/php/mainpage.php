@@ -48,9 +48,10 @@
         <!--Donate Button-->
         <div id="DonateButton">
             <div class="swiper">
-                <img src="https://via.placeholder.com/600x400.png?text=Image+1" alt="Image 1">
-                <img src="https://via.placeholder.com/600x400.png?text=Image+2" alt="Image 2">
-                <img src="https://via.placeholder.com/600x400.png?text=Image+3" alt="Image 3">
+                <img src="../image/tree1.jpg" alt="Image 1">
+                <img src="https://res.cloudinary.com/janfeldmann/image/upload/w_1440,c_fill,f_auto,q_auto:eco/v1652349551/bettersoil/website/growth_172936d1c9.jpg" alt="Image 2">
+                <img src="../image/tree.jpg" alt="Image 3">
+                <button class="imgDonate" onclick="goDonate()">Donate</button>
             </div>
         </div>
 
@@ -59,7 +60,7 @@
             <table height="600" width="85%">
                 <tr>
                     <td width="45%" bgcolor="greenyellow">
-                        <img src="" alt="image_1"></td>
+                        <img src="../image/tree2.avif" height="100%" width="100%" alt="image_1"></td>
                     <td bgcolor="greenyellow">
                         <h1>What We Do</h1>
                         <br>
@@ -75,7 +76,7 @@
             <h1 id="Event">Upcoming Events</h1>
             <div class="container">
                 <figure class="eventbox">
-                    <img class="event_image" src="" alt="event_image">
+                    <img class="event_image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSj6ggI0FvRNTIuzjHs3gHoS05tEqULCDoU0fMFDOSr6tpuIDK8Q6KiVcn-NsamFKRzEho&usqp=CAU" alt="event_image">
                     <figcaption>
                         <p>Name:</p>
                         <p>Date:</p>
@@ -86,7 +87,7 @@
                     </figcaption>
                 </figure>
                 <figure class="eventbox">
-                    <img class="event_image" src="" alt="event_image">
+                    <img class="event_image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRr6v1TkMKtKGLQTDkjNN_DZ1DOFQatt1GeSgvf0D-O72OLf621s0-Cz_ePqHG7iujGbTU&usqp=CAU" alt="event_image">
                     <figcaption>
                         <p>Name:</p>
                         <p>Date:</p>
@@ -97,7 +98,7 @@
                     </figcaption>
                 </figure>
                 <figure class="eventbox">
-                    <img class="event_image" src="" alt="event_image">
+                    <img class="event_image" src="https://timelyapp-static.time.ly/images/54704601/Sustainable%20living_bJwo.JPG" alt="event_image">
                     <figcaption>
                         <p>Name:</p>
                         <p>Date:</p>
@@ -114,15 +115,15 @@
             <div id="PassEvents">
                 <h1>Historical Events</h1>
                 <div class="HistoricalEvent">
-                    <img src="1.jpg" alt="Historical Event 1">
+                    <img src="https://sammamishindependent.com/wp-content/uploads/2023/01/BollySteps-e1674094415390.jpg" alt="Historical Event 1">
                     <p>Event Achievement, Details</p>
                 </div>
                 <div class="HistoricalEvent">
-                    <img src="event2.jpg" alt="Historical Event 2">
+                    <img src="https://blog.fetc.org/wp-content/uploads/fetc22_Facebook_1200X630_expo-1024x538.jpg" alt="Historical Event 2">
                     <p>Event Achievement, Details</p>
                 </div>
                 <div class="HistoricalEvent">
-                    <img src="event3.jpg" alt="Historical Event 3">
+                    <img src="https://www.uchicagomedicine.org/-/media/images/ucmc/forefront/channel-pages/news/universal/nascar-universal-832x469.jpg?h=385&as=1&hash=29013F3C74296465195EDF02D1B9F1F7" alt="Historical Event 3">
                     <p>Event Achievement, Details</p>
                 </div>
                 </div>
@@ -157,9 +158,9 @@
                 </div>
                 <div class="footer-section social">
                     <h2>Follow Us</h2>
-                    <a href="#" class="social-icon"><img src="icons/facebook.png" alt="Facebook"></a>
-                    <a href="#" class="social-icon"><img src="icons/twitter.png" alt="Twitter"></a>
-                    <a href="#" class="social-icon"><img src="icons/instagram.png" alt="Instagram"></a>
+                    <a href="#" class="social-icon"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Facebook_logo_%28square%29.png/240px-Facebook_logo_%28square%29.png" alt="Facebook"></a>
+                    <a href="#" class="social-icon"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Logo_of_Twitter.svg/292px-Logo_of_Twitter.svg.png" alt="Twitter"></a>
+                    <a href="#" class="social-icon"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/600px-Instagram_icon.png" alt="Instagram"></a>
                 </div>
             </div>
             <div class="footer-bottom">
