@@ -59,11 +59,7 @@
         <div id="AboutUs" >
             <table height="600" width="85%">
                 <tr>
-<<<<<<< Updated upstream
                     <td width="50%" bgcolor="greenyellow">
-=======
-                    <td width="50%">
->>>>>>> Stashed changes
                         <img src="../image/tree2.avif" height="100%" width="100%" alt="image_1"></td>
                     <td>
                         <h1>What We Do</h1>
