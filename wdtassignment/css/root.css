@@ -3,7 +3,7 @@
 }
 
 body {
-    background: linear-gradient(-45deg, #a4907c, #c8b6a6, #f1dec9, #faf5ef);
+    background: linear-gradient(-45deg, #85715f, #b49f8e, #d6c5b0, #f3f3d4);
     background-size: 400% 400%;
     animation: gradient 15seaseinfinite;
     height: 100vh;

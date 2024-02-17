@@ -2,11 +2,12 @@
 <html>
 <head>
 	<title>Events</title>
-	<link rel="stylesheet" type="text/css" href="../css/eventpage.css">
-    <link rel="stylesheet" href="../css/root.css">
+	<link rel="stylesheet" type="text/css" href="/ADollarAPlant/wdtassignment/css/eventpage.css">
+    <link rel="stylesheet" href="/ADollarAPlant/wdtassignment/css/root.css">
 </head>
 <body>
 	<h1>Upcoming Events</h1>
+    <a href="/ADollarAPlant/wdtassignment/php/mainpage.php">Back</a>
 	<div class="event-box-container">
 		<?php
 session_start();
@@ -54,8 +55,38 @@ if ($result->num_rows > 0) {
 
 $connection->close();
 ?>
-    <button class="createEvent" onclick="handleEventButtonClick()">Create Event</button>
+    <button class="createEvent" onclick="handleEventButton()">Create Event</button>
 	</div>
-	<script src="/ADollarAPlant/wdtassignment/javasript/eventpage.js"></script>
+	<script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const loginButton = document.getElementById('loginButton');
+            const isLoggedIn = <?php echo isset($_SESSION["user_data"]) ? 'true' : 'false'; ?>;
+            
+            loginButton.addEventListener('click', function () {
+                if (isLoggedIn) {
+                    window.location.href = 'login.php';
+                } else {
+                    window.location.href = 'profile.php';
+                }
+            });
+        });
+
+        function redirectUser() {
+            const isLoggedIn = <?php echo isset($_SESSION["user_data"]) ? 'true' : 'false'; ?>;
+            
+            if (!isLoggedIn) {
+                window.location.href = '/ADollarAPlant/wdtassignment/php/login.php';
+            }
+        }
+
+        function redirectToEventOrganizerForm() {
+            window.location.href = '/ADollarAPlant/wdtassignment/php/eventorganizerform.php';
+        }
+
+        function handleEventButton() {
+            redirectToEventOrganizerForm();
+            redirectUser();
+        }
+    </script>
 </body>
 </html>

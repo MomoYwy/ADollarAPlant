@@ -366,13 +366,8 @@ footer {
 }
 
 .Profile-button:hover {
-<<<<<<< Updated upstream
     background-color: #45a049;
     color: white;
-=======
-    background-color: #ffdbac;
-    color: #45a049;
->>>>>>> Stashed changes
 }
 
 #loginButton{

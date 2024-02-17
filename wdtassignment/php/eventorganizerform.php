@@ -74,11 +74,24 @@
     button:hover {
         background-color: #45a049;
     }
+
+    a {
+        margin: 30px;
+        margin-top: 30px;
+        padding: 10px 20px;
+        font-size: 16px;
+        cursor: pointer;
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        border-radius: 5px;
+    }
     </style>
 
 </head>
 
 <body>
+</br></br><a href="/ADollarAPlant/wdtassignment/php/eventpage.php">Back</a>
     <div class="event-form-container">
         <h2>Create an Event</h2>
         <form id="event-form" action="/ADollarAPlant/wdtassignment/php/eventorganizer.php" method="POST">
