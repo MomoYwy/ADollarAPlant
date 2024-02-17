@@ -20,7 +20,6 @@ if ($connection->connect_error) {
     die("Connection failed: " . $connection->connect_error);
 }
 
-
 $sql = 'SELECT * FROM `event` inner join `organizer` on `event`.`organizerID` = `organizer`.`organizerID`';
 $result = $connection->query($sql);
 
@@ -33,7 +32,7 @@ if ($result->num_rows > 0) {
         echo '<p>Date: ' . $row['Date'] . '</p>';
         echo '<p>Number of Volunteer: ' . $row['NumberofVolunteer'] . '</p>';
         echo '<p>Venue: ' .$row['Venue']. '</p>';
-        echo '<form action="join_event.php" method="post">';
+        echo '<form action="/ADollarAPlant/wdtassignment/php/joinevent.php" method="post">';
         echo '<input type="hidden" name="event_id" value="' . $row['EventID'] . '">';
         echo '<button type="submit" name="join_button">Join</button>';
         echo '</form>';

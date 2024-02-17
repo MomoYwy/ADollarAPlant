@@ -9,7 +9,7 @@
 <body>
     <div class="donation-container">
         <h1>Donation</h1>
-        <form id="donation" action="http://127.0.0.1:5501/wdtassignment/html/payment.html">
+        <form id="donation" action="/ADollarAPlant/wdtassignment/html/payment.html">
             <label for="amount">Amount(RM):</label>
             <input type="number" id="amount" name="amount" min="1" required>
 
@@ -20,7 +20,11 @@
             <input type="text" id="name" name="name">
 
             <label for="payment">Payment Method:</label>
-            <input type="tel" id="contact" name="contact" required>
+            <select name="method" id="method">
+                <option value="eWallet">E-Wallet</option>
+                <option value="onlineBanking">Online Banking</option>
+                <option value="debitCard">Debit Card</option>
+            </select>
 
             <button class='submit'  type="submit">Donate</button>
         </form>

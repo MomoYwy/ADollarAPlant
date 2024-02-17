@@ -46,6 +46,11 @@ body {
     border-bottom: 1px solid;
         }
 
+    input[type=radio] {
+        width: 10%;
+        display: inline;
+    }
+
     input:focus{
         border: 1px solid #000;
     }
@@ -71,12 +76,11 @@ body {
     }
         
     header {
-        background-color: #ffffff;
         padding: 10px;
         text-align: left;
     }
         
-    #backButton {
+    .back-button {
         position: absolute;
         background-color: #4CAF50;
         color: white;

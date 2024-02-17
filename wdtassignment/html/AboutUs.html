@@ -74,6 +74,25 @@
       display: block;
     }
   }
+
+.backButton {
+    position: absolute;
+    background-color: #2e8631;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    top: 20px;
+    left: 20px;
+    height: 40px;
+    width: 70px;
+    font-size: 15px;
+    }
+            
+.backButton:hover {
+    background-color: #2d7130;
+}
 </style>
 </head>
 <body>
@@ -85,6 +104,10 @@ Founded with a mission to make a tangible impact on the world, we have created a
   <p>Our dedication to transparency and accountability ensures that your donations are utilized efficiently and effectively. We work closely with reputable tree-planting organizations and environmental experts to ensure that every tree planted makes a genuine difference in reforesting our planet.
     Join us in our journey to create a world where nature thrives, ecosystems flourish, and every individual has the opportunity to make a positive impact. Together, we can plant the seeds of change and cultivate a healthier, more resilient planet for generations to come. Thank you for your support.
   </p>
+  <header>
+    <button id="backButton" class="backButton" onclick="backHome()">Back</button>
+    <script src="../javasript/aboutus.js"></script>
+</header>
 </div>
 
 <h2 style="text-align:center">Our Team</h2>

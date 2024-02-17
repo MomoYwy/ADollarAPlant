@@ -4,95 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/profile.css">
+    <link rel="stylesheet" href="../css/root.css">
     <title>Document</title>
 </head>
 
-<style>
-    body {
-        background: rgb(99, 39, 120)
-    }
-
-    .form-control:focus {
-        box-shadow: none;
-        border-color: #BA68C8
-    }
-
-    .profile-button {
-        background: rgb(99, 39, 120);
-        box-shadow: none;
-        border: none
-    }
-
-    .profile-button:hover {
-        background: #682773
-    }
-
-    .profile-button:focus {
-        background: #682773;
-        box-shadow: none
-    }
-
-    .profile-button:active {
-        background: #682773;
-        box-shadow: none
-    }
-
-    .back:hover {
-        color: #682773;
-        cursor: pointer
-    }
-
-    .labels {
-        font-size: 11px
-    }
-
-    .add-experience:hover {
-        background: #BA68C8;
-        color: #fff;
-        cursor: pointer;
-        border: solid 1px #BA68C8
-    }
-</style>
 
 <body>
     <h1>Profile</h1>
     <?php
-$host = 'localhost';
-$db   = 'wdtassignment';
-$user = 'root';
-$pass = '';
+    session_start();
 
-$connection = new mysqli($host, $user, $pass, $db);
-
-if ($connection->connect_error) {
-    die("Connection failed: " . $connection->connect_error);
-}
-
-
-$sql = 'SELECT * FROM `member`';
-$result = $connection->query($sql);
-
-if ($result->num_rows > 0) {
-    while($row = $result->fetch_assoc()) {
-        echo '<div class="event-box">';
-        echo '<h2>' . $row['EventName'] . '</h2>';
-        echo '<p>Organizer: ' . $row['Name'] . '</p>';
-        echo '<p>Time: ' . $row['Time'] . '</p>';
-        echo '<p>Date: ' . $row['Date'] . '</p>';
-        echo '<p>Number of Volunteer: ' . $row['NumberofVolunteer'] . '</p>';
-        echo '<p>Venue: ' .$row['Venue']. '</p>';
-        echo '<form action="join_event.php" method="post">';
-        echo '<input type="hidden" name="event_id" value="' . $row['EventID'] . '">';
-        echo '<button type="submit" name="join_button">Join</button>';
-        echo '</form>';
-        echo '</div>';
+    // Check if the user is logged in
+    if (!isset($_SESSION["user_data"])) {
+        header("Location: login.html");
+        exit();
     }
-} else {
-    echo 'No events found.';
-}
 
-$connection->close();
-?>
-</div>
+// Retrieve user data from the session
+    $user = $_SESSION["user_data"];
+    ?>
+    <div class="container">
+        <div class="profile">
+            <img src="" alt="ProfileImage">
+            <p>Member ID: <?php echo $user["member_id"]; ?></p>
+        </div>
+        <div class="ProfileDetails">
+            <p>Member ID: <?php echo $user["member_id"]; ?></p>
+            <p>Username: <?php echo $user["username"]; ?></p>
+            <p>Name: <?php echo $user["name"]; ?></p>
+            <p>Age: <?php echo $user["age"]; ?></p>
+            <p>Email: <?php echo $user["email"]; ?></p>
+            <p>Gender: <?php echo $user["gender"]; ?></p>
+            <p>Phone Number: <?php echo $user["phone_number"]; ?></p>
+            <p>IC: <?php echo $user["ic"]; ?></p>
+        </div>
+            <a href="logout.php">Logout</a>
+    </div>
 </body>
 </html>
