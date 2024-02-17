@@ -9,6 +9,16 @@
 	<h1>Upcoming Events</h1>
 	<div class="event-box-container">
 		<?php
+session_start();
+
+function isLoggedIn() {
+    if (isset($_SESSION["user_data"])) {
+        return true;
+    } else {
+        return false;
+    }
+}
+
 $host = 'localhost';
 $db   = 'wdtassignment';
 $user = 'root';
@@ -34,7 +44,7 @@ if ($result->num_rows > 0) {
         echo '<p>Venue: ' .$row['Venue']. '</p>';
         echo '<form action="/ADollarAPlant/wdtassignment/php/joinevent.php" method="post">';
         echo '<input type="hidden" name="event_id" value="' . $row['EventID'] . '">';
-        echo '<button type="submit" name="join_button">Join</button>';
+        echo '<button id="loginButton" type="submit" name="join_button" onclick="redirectUser()">Join</button>';
         echo '</form>';
         echo '</div>';
     }
@@ -44,7 +54,8 @@ if ($result->num_rows > 0) {
 
 $connection->close();
 ?>
+    <button class="createEvent" onclick="handleEventButtonClick()">Create Event</button>
 	</div>
-	<script src="scripts.js"></script>
+	<script src="/ADollarAPlant/wdtassignment/javasript/eventpage.js"></script>
 </body>
 </html>

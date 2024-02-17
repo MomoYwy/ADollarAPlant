@@ -47,6 +47,10 @@ function redirectToLogin() {
     window.location.href = '/ADollarAPlant/wdtassignment/php/login.php';
 }
 
+function redirectToProfile() {
+    window.location.href = '/ADollarAPlant/wdtassignment/php/profile.php';
+}
+
 document.getElementById("Donate").addEventListener('click', function() {
     // Redirect to the donation page
     window.location.href = '/ADollarAPlant/wdtassignment/html/donation.html';

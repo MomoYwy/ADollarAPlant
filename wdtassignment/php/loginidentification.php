@@ -25,18 +25,10 @@ if ($result->num_rows > 0) {
     $user = $result->fetch_assoc();
     $_SESSION["user_data"] = $user;
     $_SESSION["login_success"] = true;
-    header("Location: /ADollarAPlant/wdtassignment/html/mainpage.html");
+    header("Location: /ADollarAPlant/wdtassignment/php/mainpage.php");
     exit();
 } else {
     $response = array("success" => false, "message" => "Incorrect username or password");
-}
-
-function isLoggedIn() {
-    if (isset($_SESSION["user_data"])) {
-        return true;
-    } else {
-        return false;
-    }
 }
 
 $connection->close();

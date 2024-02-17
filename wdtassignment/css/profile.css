@@ -1,0 +1,66 @@
+.container {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.profile {
+    background-color: aquamarine;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.profile p {
+    font-size: 15px;
+    font-weight: bold;
+    margin: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile img {
+    float: left;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: whitesmoke;
+    width: 300px;
+    height: 300px;
+    max-width: 300px;
+    max-height: 300px;
+    overflow: hidden; 
+    border-radius: 50%;
+    margin: 30px;
+}
+
+.ProfileDetails {
+    float: left;
+    background-color: rgba(255, 255, 255, 0.8);
+    align-items: center;
+    justify-content: center;
+    padding: 30px 200px 100px 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.ProfileDetails p {
+    margin: 30px;
+}
+
+a {
+    float: right;
+    text-decoration: none;
+    color: white;
+    height: 20px;
+    font-weight: bold;
+    background-color: lightseagreen;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+a:hover {
+    background-color: #ddd;
+}
