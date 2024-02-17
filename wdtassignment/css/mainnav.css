@@ -18,12 +18,13 @@ body {
     max-height: 75px;
     justify-content: center;
     align-items: center;
-    z-index: 10;
+    z-index: 15;
     border-radius: 10%;
+    max-width: 100%;
 }
 
 #mainnav {
-    margin-top: 80px;
+    margin-top: 100px;
     background-color: #edebe3; 
     padding: 0px;
     position: fixed;
@@ -84,15 +85,15 @@ body {
 
 .swiper .imgDonate{
     position: absolute;
-    padding: 30px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    background-color:transparent;
+    padding: 50px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color:#be9b7b;
     color: white;
     border: 2px #4caf50;
-    border-radius: 4px ;
+    border-radius: 12px ;
     cursor: pointer;
-    font-size: 50px;
+    font-size: 35px;
     top: 600px;
     left: 575px;
     opacity: 1;
@@ -100,7 +101,8 @@ body {
 
 .swiper .imgDonate:hover{
     border: 2px #4CAF50;
-    color: #56bf5a;
+    color: #008080;
+    background-color: #b2d8d8;
 }
 
 .swiper img {
@@ -116,17 +118,27 @@ body {
 }
 
 #AboutUs {
-    width: 85%;
+    width: 100%;
     float: left;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 250px 175px;
+    margin: 250px 25px;
     padding-top: 150px;
+}
+
+#AboutUs img{
+    width: 100%;
+    height: 100%;
 }
 
 #AboutUs h1,p,a {
     margin: 30px;
+    color: #fff4e6;
+}
+
+#AboutUs td{
+    background-color: #854442;
 }
 
 .LearnMore {
@@ -143,7 +155,7 @@ body {
 .eventbox {
     width: 550px;
     height: 600px;
-    background-color: #ddd;
+    background-color: #be9b7b;
     margin: 25px;
     border: 0.2px solid #333;
     overflow: hidden;
@@ -170,6 +182,10 @@ figcaption {
     width: 550px;
     height: 350px;
     margin: 10px;
+}
+
+.container a{
+    color: #8d5524;
 }
 
 hr {
@@ -209,7 +225,7 @@ h1 {
     align-items: center;
     display: grid;
     gap: 10px;
-    background-color: #df6c98;
+    background-color: #dec2cb;
     padding: 40px;
     padding-top: 60px;
     padding-bottom: 60px;
@@ -222,7 +238,21 @@ input {
     padding-bottom: 20px;
     margin-bottom: 20px;
     font-size: 16px;
-    background-color: #db81a3;
+    background-color: #dec2cb;
+    color: beige;
+}
+
+input:focus {
+    color: #ff8b94;
+    outline: none;
+}
+
+#donationForm label{
+    color: #854442;
+}
+
+#donation h1{
+    color: #854442;
 }
 
 button {
@@ -260,8 +290,8 @@ header {
 }
 
 .donate {
-    background-color: #4CAF50;
-    color: white;
+    background-color: #be9b7b;
+    color: beige;
     padding: 10px 15px;
     border: none;
     cursor: pointer;
@@ -269,12 +299,12 @@ header {
 }
 
 .donate:hover {
-    background-color: #fff;
+    background-color: wheat;
     color: #45a049;
 }
 
 footer {
-    background-color: black;
+    background-color: #4b3832;
     color: #fff;
     padding: 20px 0;
 }
@@ -291,7 +321,7 @@ footer {
 }
 
 .footer-section h2 {
-    color: #4caf50;
+    color: #be9b7b;
     margin-left: 30px;
 }
 
@@ -304,33 +334,51 @@ footer {
 .footer-bottom {
     text-align: center;
     padding-top: 10px;
-    background-color: black;
+    background-color: #4b3832;
 }
 
 .login-button {
-    background-color: #4CAF50;
-    color: white;
+    background-color: #be9b7b;
+    color: beige;
     padding: 10px 15px;
+    margin-top: 20px;
     border: none;
     cursor: pointer;
     border-radius: 5px;
+    position: fixed;
+    right: 30px;
+    z-index: 10;
 }
 
 .Profile-button {
     background-color: wheat;
     color: green;
     padding: 10px 15px;
+    margin-top: 20px;
     border: none;
     cursor: pointer;
     border-radius: 10px;
 }
 
 .login-button:hover {
-    background-color: whitesmoke;
+    background-color: #ffdbac;
     color: #45a049;;
 }
 
 .Profile-button:hover {
     background-color: #45a049;
     color: white;
+}
+
+#loginButton{
+    background-color: beige;
+    position: fixed;
+    width: 100%;
+    padding-bottom: 80px;
+    z-index: 9;
+}
+
+.logo{
+    width: 0;
+    height: 0;
 }

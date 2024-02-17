@@ -10,7 +10,7 @@
 </head>
 <body>
     <div id="wrapper">
-        <div><a href=""><img id ="logo"src="../image/ADAPLogo.png" alt="ADAPLogo"></a></div>
+        <div class='logo'><a href=""><img id ="logo"src="../image/ADAPLogo.png" alt="ADAPLogo"></a></div>
 
         <!--Header and main nav-->
         <header id="mainnav">
@@ -59,7 +59,7 @@
         <div id="AboutUs" >
             <table height="600" width="85%">
                 <tr>
-                    <td width="45%" bgcolor="greenyellow">
+                    <td width="50%" bgcolor="greenyellow">
                         <img src="../image/tree2.avif" height="100%" width="100%" alt="image_1"></td>
                     <td bgcolor="greenyellow">
                         <h1>What We Do</h1>
