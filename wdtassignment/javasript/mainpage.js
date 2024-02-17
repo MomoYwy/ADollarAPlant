@@ -62,3 +62,6 @@ window.addEventListener('load', function() {
 
 startSwiper()
 
+function goDonate() {
+    window.location.href = '#donation';
+}
