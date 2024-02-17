@@ -197,7 +197,7 @@ h1 {
 }
 
 .HistoricalEvent {
-    background-color: grey;
+    background-color: #66492f;
     width: 80%;
     height: 30%;
     margin: 0 auto;
@@ -351,7 +351,7 @@ footer {
 }
 
 .Profile-button {
-    background-color: wheat;
+    background-color: #be9b7b;
     color: green;
     padding: 10px 15px;
     margin-top: 20px;
@@ -366,8 +366,13 @@ footer {
 }
 
 .Profile-button:hover {
+<<<<<<< Updated upstream
     background-color: #45a049;
     color: white;
+=======
+    background-color: #ffdbac;
+    color: #45a049;
+>>>>>>> Stashed changes
 }
 
 #loginButton{
