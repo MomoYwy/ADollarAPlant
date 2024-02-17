@@ -85,8 +85,8 @@
             <label for="EventName">Event Name:</label>
             <input type="text" id="eventName" name="EventName" required>
 
-            <label for="organizer">Organizer:</label>
-            <input type="text" id="organizer" name="Organizer" required>
+            <label for="memberID">MemberID:</label>
+            <input type="text" id="MemberID" name="MemberID" required>
 
             <label for="Date">Date:</label>
             <input type="date" id="eventDate" name="Date" required>

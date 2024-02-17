@@ -282,6 +282,21 @@ footer {
     border-radius: 5px;
 }
 
+.Profile-button {
+    background-color: wheat;
+    color: green;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
 .login-button:hover {
+    background-color: whitesmoke;
+    color: #45a049;;
+}
+
+.Profile-button:hover {
     background-color: #45a049;
+    color: white;
 }

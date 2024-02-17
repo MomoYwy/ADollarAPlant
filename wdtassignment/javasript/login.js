@@ -1,5 +1,5 @@
 function redirectToMain() {
-    window.location.href = '/ADollarAPlant/wdtassignment/html/mainpage.html';
+    window.location.href = '/ADollarAPlant/wdtassignment/php/mainpage.php';
 }
 
 function validateLogin() {
@@ -33,7 +33,7 @@ function onLoginSuccess() {
     if (previousPage) {
         window.location.href = previousPage;
     } else {
-        window.location.href = '/ADollarAPlant/wdtassignment/html/mainpage.html';
+        window.location.href = '/ADollarAPlant/wdtassignment/php/mainpage.php';
     }
 }
 

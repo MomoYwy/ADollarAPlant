@@ -18,7 +18,7 @@
             <nav><hr>
                 <ul>
                     <li><a href="#AboutUs">About Us</a></li>
-                    <li><a href="#Event">Events</a></li>
+                    <li><a href="/ADollarAPlant/wdtassignment/php/eventpage.php">Events</a></li>
                     <li><a href="">Community</a></li>
                     <li><a href="">Contact</a></li>
                 </ul>
@@ -28,7 +28,21 @@
         <!--Login Button-->
         <div id="loginButton">
             <header>
-                <button class="login-button" onclick="redirectToLogin()">Login</button>
+                <?php 
+                session_start();
+                function isLoggedIn() {
+                    if (isset($_SESSION["user_data"])) {
+                        return true;
+                    } else {
+                        return false;
+                    }
+                }
+                if (isLoggedin()) {
+                    echo '<button class="profile-button" onclick="redirectToProfile()">Profile</button>';
+                } else {
+                    echo '<button class="login-button" onclick="redirectToLogin()">Login</button>';
+                }
+                ?>
             </header>
         </div>
         <!--Donate Button-->
