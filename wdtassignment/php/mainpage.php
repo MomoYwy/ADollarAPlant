@@ -19,8 +19,8 @@
                 <ul>
                     <li><a href="#AboutUs">About Us</a></li>
                     <li><a href="/ADollarAPlant/wdtassignment/php/eventpage.php">Events</a></li>
-                    <li><a href="">Community</a></li>
-                    <li><a href="">Contact</a></li>
+                    <li><a href="/ADollarAPlant/wdtassignment/html/Community.html">Community</a></li>
+                    <li><a href="/ADollarAPlant/wdtassignment/html/ContactUs.html">Contact</a></li>
                 </ul>
             <hr></nav>
         </header>
