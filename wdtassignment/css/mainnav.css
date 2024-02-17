@@ -175,6 +175,7 @@ body {
 .event_image {
     width: 550px;
     height: 300px;
+    object-fit: contain;
     overflow: hidden;
 }
 
