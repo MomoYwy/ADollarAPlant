@@ -9,27 +9,27 @@
 <body>
     <div class="donation-container">
         <h1>Donation</h1>
-        <form id="donation" action="/ADollarAPlant/wdtassignment/html/payment.html" method="POST">
-            <label for="amount">Amount(RM):</label>
-            <input type="number" id="amount" name="DonationAmount" min="1" required>
-
+        <form id="donation" action="/ADollarAPlant/wdtassignment/php/donation.php" method="POST">
+            <label for="amount">Amount (RM):</label>
+            <input type="number" id="amount" name="DonationAmount" min="1" required placeholder="Enter donation amount">
+        
             <label for="anonymous">Anonymous Donation:</label>
             <input type="checkbox" class="anonymous" name="anonymous">
-            
+        
             <label for="name">If no, Please Enter Your Name:</label>
-            <input type="text" id="name" name="Name">
-
+            <input type="text" id="name" name="Name" placeholder="Your Name">
+        
             <label for="email">Email:</label>
-            <input type="email" id="email" name="Email">
+            <input type="email" id="email" name="Email" placeholder="Your Email">
 
             <label for="payment">Payment Method:</label>
-            <select name="method" id="DonationMethod">
+            <select name="DonationMethod" id="DonationMethod">
                 <option value="eWallet">E-Wallet</option>
                 <option value="onlineBanking">Online Banking</option>
                 <option value="debitCard">Debit Card</option>
             </select>
 
-            <button class='submit'  type="submit">Donate</button>
+            <button class='submit' type="submit" onclick="makePayment()">Donate</button>
         </form>
     <header>
         <button id="backButton" class="backButton">Back</button>

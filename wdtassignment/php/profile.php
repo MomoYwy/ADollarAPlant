@@ -24,6 +24,7 @@
     $user = $_SESSION["user_data"];
     ?>
     <div class="container">
+    <a href="/ADollarAPlant/wdtassignment/php/editprofile.php">Back</a>
         <div class="profile">
             <img src="" alt="ProfileImage">
             <p>Username: <?php echo $user["Username"]; ?></p>
@@ -38,7 +39,8 @@
             <p>IC/Passport: <?php echo $user["ICorPassport"]; ?></p>
             <p>Password: <?php echo $user["Password"]; ?></p>
         </div>
-            <a href="logout.php">Logout</a>
+            <a href="/ADollarAPlant/wdtassignment/php/editprofile.php">Edit</a></br>
+            <a href="/ADollarAPlant/wdtassignment/php/logout.php">Logout</a>
     </div>
 </body>
 </html>

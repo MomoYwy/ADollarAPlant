@@ -15,7 +15,7 @@ if ($connection->connect_error) {
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $Name = $_POST['Name'];
     $DonationAmount = $_POST['DonationAmount'];
-    $DonationMethode = $_POST['DonationMethod'];
+    $DonationMethod = $_POST['DonationMethod'];
     $Email = $_POST['Email'];
 
     $sql1 = "SELECT * FROM `member` WHERE `Name` = '$Name'";
@@ -28,7 +28,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $memberID = null;
     }
 
-    $donerInsertQuery = "INSERT INTO `doner` (`Name`, `Email`, `MemberID`) VALUES ('$Name', '$Email', '$memberID')";
+    $donerInsertQuery = "INSERT INTO `doner` (`Name`, `Email`) VALUES ('$Name', '$Email')";
+    $connection->query($donerInsertQuery);
 
     if ($connection->query($donerInsertQuery) === TRUE) {
         $donerID = $connection->insert_id;
@@ -36,7 +37,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $donationInsertQuery = "INSERT INTO `donation` (`DonationAmount`, `DonationMethod`, `DonerID`) VALUES ('$DonationAmount', '$DonationMethod', '$donerID')";
 
         if ($connection->query($donationInsertQuery) === TRUE) {
-            echo "Data inserted successfully";
+            header("Location: /ADollarAPlant/wdtassignment/html/payment.html");
+            exit();
         } else {
             echo "Error inserting into donation table: " . $connection->error;
         }
