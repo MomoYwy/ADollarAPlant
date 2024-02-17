@@ -17,9 +17,30 @@
             background-color: #343a40;
             color: #fff;
             padding: 20px;
+            padding-bottom: 10px;
             text-align: center;
             box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         }
+
+    .backButton {
+        position: absolute;
+        background-color: #4CAF50;
+        color: white;
+        padding: 10px 15px;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+        top: 20px;
+        left: 20px;
+        height: 40px;
+        width: 70px;
+        font-size: 15px;
+    }
+            
+    .backButton:hover {
+        background-color: #45a049;
+    }
+
         .container {
             max-width: 800px;
             margin: 20px auto;
@@ -28,10 +49,18 @@
         .form-group {
             margin-bottom: 20px;
         }
-        label {
+        label.title{
             display: block;
             margin-bottom: 5px;
+            margin-top: 80px;
         }
+
+        label.content{
+            display: block;
+            margin-bottom: 5px;
+            margin-top: 30px;
+        }
+
         input[type="text"],
         textarea {
             width: 100%;
@@ -63,14 +92,19 @@
     <h1>Add Post</h1>
 </header>
 
+<header>
+    <button id="backButton" class="backButton">Back</button>
+</header>
+
+
 <div class="container">
     <form id="add-post-form">
         <div class="form-group">
-            <label for="post-title">Post Title:</label>
+            <label for="post-title" class="title">Post Title:</label>
             <input type="text" id="post-title" name="post-title" required>
         </div>
         <div class="form-group">
-            <label for="post-content">Post Content:</label>
+            <label for="post-content" class="content">Post Content:</label>
             <textarea id="post-content" name="post-content" required></textarea>
         </div>
         <input type="submit" value="Submit">
@@ -103,6 +137,11 @@
 
         // Redirect back to main blog page
         window.location.assign("file:///C:/Users/User/Documents/GitHub/ADollarAPlant/wdtassignment/html/Community.html");
+    });
+
+    document.getElementById('backButton').addEventListener('click', function() {
+    // Redirect to the community page
+    window.location.href = '/ADollarAPlant/wdtassignment/html/Community.html';
     });
 </script>
 

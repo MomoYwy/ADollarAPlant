@@ -114,6 +114,7 @@ body {
   position:relative;
   left:calc(50% - 100px);
   cursor:pointer;
+  text-align:center;
 }
 .contact-form .second-container form .btn:hover{
   background:#333;

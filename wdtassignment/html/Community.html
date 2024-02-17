@@ -5,21 +5,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Blog</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f8f9fa;
-            color: #333;
-            line-height: 1.6;
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f8f9fa;
+        color: #333;
+        line-height: 1.6;
         }
-        header {
-            background-color: #343a40;
-            color: #fff;
-            padding: 20px;
-            text-align: center;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    header {
+        background-color: #343a40;
+        color: #fff;
+        padding: 20px;
+        padding-bottom: 10px;
+        text-align: center;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         }
+
+    .backButton {
+        position: absolute;
+        background-color: #4CAF50;
+        color: white;
+        padding: 10px 15px;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+        top: 20px;
+        left: 20px;
+        height: 40px;
+        width: 70px;
+        font-size: 15px;
+    }
+            
+    .backButton:hover {
+        background-color: #45a049;
+    }
+
         .container {
             max-width: 800px;
             margin: 20px auto;
@@ -84,6 +105,10 @@
     <h1>My Blog</h1>
 </header>
 
+<header>
+    <button id="backButton" class="backButton">Back</button>
+</header>
+
 <div class="container" id="posts-container">
     <!-- Posts will be dynamically added here -->
 </div>
@@ -91,7 +116,7 @@
 <footer>
     &copy; 2024 My Blog | <a href="#">Contact</a>
     <div class="add-post-button">
-        <a href="..\html\community(add post).html">Add Post</a>
+        <a href="/ADollarAPlant/wdtassignment/html/community(add post).html">Add Post</a>
     </div>
 </footer>
 
@@ -106,6 +131,11 @@
         var postsContainer = document.getElementById("posts-container");
         postsContainer.innerHTML = localStorage.getItem("posts");
     }
+
+    document.getElementById('backButton').addEventListener('click', function() {
+    // Redirect to the home page
+    window.location.href = '/ADollarAPlant/wdtassignment/php/mainpage.php';
+    });
 </script>
 
 </body>

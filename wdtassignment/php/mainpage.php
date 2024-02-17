@@ -10,7 +10,7 @@
 </head>
 <body>
     <div id="wrapper">
-        <div><a href=""><img id ="logo"src="../image/ADAPLogo.png" alt="ADAPLogo"></a></div>
+        <div class='logo'><a href=""><img id ="logo"src="../image/ADAPLogo.png" alt="ADAPLogo"></a></div>
 
         <!--Header and main nav-->
         <header id="mainnav">
@@ -19,8 +19,8 @@
                 <ul>
                     <li><a href="#AboutUs">About Us</a></li>
                     <li><a href="/ADollarAPlant/wdtassignment/php/eventpage.php">Events</a></li>
-                    <li><a href="">Community</a></li>
-                    <li><a href="">Contact</a></li>
+                    <li><a href="/ADollarAPlant/wdtassignment/html/Community.html">Community</a></li>
+                    <li><a href="/ADollarAPlant/wdtassignment/html/ContactUs.html">Contact</a></li>
                 </ul>
             <hr></nav>
         </header>
@@ -59,9 +59,13 @@
         <div id="AboutUs" >
             <table height="600" width="85%">
                 <tr>
-                    <td width="45%" bgcolor="greenyellow">
+<<<<<<< Updated upstream
+                    <td width="50%" bgcolor="greenyellow">
+=======
+                    <td width="50%">
+>>>>>>> Stashed changes
                         <img src="../image/tree2.avif" height="100%" width="100%" alt="image_1"></td>
-                    <td bgcolor="greenyellow">
+                    <td>
                         <h1>What We Do</h1>
                         <br>
                         <p>We are a organisation to help spread awareness about the importance of conservation of the environment</p>
@@ -131,7 +135,7 @@
 
             <div id="donation">
                 <h1>Donation</h1>
-                <form id="donationForm" action="http://127.0.0.1:5501/wdtassignment/html/donation.html">
+                <form id="donationForm" action="">
                     <label for="name">Name:</label>
                     <input type="text" id="name" name="name" required>
             
@@ -141,7 +145,7 @@
                     <label for="contact">Contact No:</label>
                     <input type="tel" id="contact" name="contact" required>
             
-                    <button id="donate"class="donate">Submit</button>
+                    <button id="Donate"class="donate" onclick='toDonate()'>Submit</button>
                 </form>
             </div>
         </div>

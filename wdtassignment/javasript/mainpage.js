@@ -51,10 +51,10 @@ function redirectToProfile() {
     window.location.href = '/ADollarAPlant/wdtassignment/php/profile.php';
 }
 
-document.getElementById("Donate").addEventListener('click', function() {
+function toDonate() {
     // Redirect to the donation page
     window.location.href = '/ADollarAPlant/wdtassignment/html/donation.html';
-    });
+}
 
 window.addEventListener('load', function() {
     if (isUserLoggedIn()) {
