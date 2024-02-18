@@ -236,12 +236,6 @@ h1 {
     flex-grow: 1;
 }
 
-.HistoricalEvent h4{
-    text-align: center;
-    position: absolute;
-    top: 40px;
-}
-
 .HistoricalEvent p{
     text-align: center;
     padding: 20px;
