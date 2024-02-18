@@ -82,7 +82,7 @@
                         <p>Date: 20 Nov 2023</p>
                         <p>Location: Bukit Bintang</p>
                         <p>Organizer: Aisha Subramanian</p>
-                        <p>Description: </p>
+                        <p>Description: "A Dollar A plant" is a plant charity dedicated to preserving and restoring natural habitats through outdoor adventure challenges.  Our organization recognizes the vital role that plants play in maintaining healthy ecosystems and biodiversity, and we are committed to supporting their conservation efforts through engaging outdoor experiences.</p>
                         <a class="LearnMore" href="">Learn More>></a>
                     </figcaption>
                 </figure>
