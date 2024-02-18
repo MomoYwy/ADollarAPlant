@@ -65,7 +65,7 @@
                         <h1>What We Do</h1>
                         <br>
                         <p>We are a organisation to help spread awareness about the importance of conservation of the environment</p>
-                        <a class="LearnMore" href="http://127.0.0.1:5501/wdtassignment/html/aboutustest.html">Learn More>></a>
+                        <a class="LearnMore" href="/ADollarAPlant/wdtassignment/html/AboutUs.html">Learn More>></a>
                     </td>
                 </tr>
             </table>
