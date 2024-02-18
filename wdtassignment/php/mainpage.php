@@ -118,7 +118,8 @@
                 <div class="HistoricalEvent">
                     <img src="https://sammamishindependent.com/wp-content/uploads/2023/01/BollySteps-e1674094415390.jpg" alt="Historical Event 1">
                     <h3>Event Achievement</h3>
-                    <h3>Name: Bollywood Dance Night for Diversity</h3>
+                    <h4>Name: Bollywood Dance Night for Diversity</h4>
+                    <h5></h5>
                     <p>Detail</p>
                 </div>
                 <div class="HistoricalEvent">
