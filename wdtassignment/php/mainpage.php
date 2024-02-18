@@ -109,6 +109,7 @@
                     </figcaption>
                 </figure>
                 <a float="right" href="">More Events>></a>
+            </div>
         </div>
 
             <!--Pass Events-->
@@ -116,15 +117,18 @@
                 <h1>Historical Events</h1>
                 <div class="HistoricalEvent">
                     <img src="https://sammamishindependent.com/wp-content/uploads/2023/01/BollySteps-e1674094415390.jpg" alt="Historical Event 1">
-                    <p>Event Achievement, Details</p>
+                    <h3>Event Achievement</h3>
+                    <p>Detail</p>
                 </div>
                 <div class="HistoricalEvent">
                     <img src="https://blog.fetc.org/wp-content/uploads/fetc22_Facebook_1200X630_expo-1024x538.jpg" alt="Historical Event 2">
-                    <p>Event Achievement, Details</p>
+                    <h3>Event Achievement</h3>
+                    <p>Detail</p>
                 </div>
                 <div class="HistoricalEvent">
                     <img src="https://www.uchicagomedicine.org/-/media/images/ucmc/forefront/channel-pages/news/universal/nascar-universal-832x469.jpg?h=385&as=1&hash=29013F3C74296465195EDF02D1B9F1F7" alt="Historical Event 3">
-                    <p>Event Achievement, Details</p>
+                    <h3>Event Achievement</h3>
+                    <p>Detail</p>
                 </div>
                 </div>
             </div>

@@ -161,8 +161,11 @@ body {
     overflow: hidden;
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
     place-content: center;
+}
+
+.eventbox img {
+    order: -1;
 }
 
 .container {
@@ -175,17 +178,18 @@ body {
 .event_image {
     width: 550px;
     height: 300px;
+    max-width: 600px;
     object-fit: contain;
     overflow: hidden;
 }
 
 figcaption {
-    width: 550px;
+    width: 150px;
     height: 350px;
     margin: 10px;
 }
 
-.container a{
+.container a {
     color: #8d5524;
 }
 
@@ -195,6 +199,8 @@ hr {
 
 h1 {
     text-align: center;
+    justify-content: center;
+    align-items: center;
 }
 
 .HistoricalEvent {
@@ -202,14 +208,31 @@ h1 {
     width: 80%;
     height: 30%;
     margin: 0 auto;
+    display: flex;
+    flex-direction: row-reverse;
+    border: 1.5px solid #fff;
+}
+
+.HistoricalEvent:nth-child(even) {
+    flex-direction: row;
 }
 
 .HistoricalEvent img {
-    width: 100%;
+    width: 30%;
+    max-height: 300px;
+    height: auto;
 }
 
-.HistoricalEvent p {
+.HistoricalEvent h3{
     text-align: center;
+    padding: 20px;
+    flex-grow: 1;
+}
+
+.HistoricalEvent p{
+    text-align: center;
+    padding: 20px;
+    flex-grow: 1;
 }
 
 #donation {
@@ -382,4 +405,16 @@ footer {
 .logo{
     width: 0;
     height: 0;
+}
+
+#mainnav, .eventbox, #DonateButton, .swiper .imgDonate, #AboutUs table, #donationForm, .donate, footer, .login-button, .Profile-button, #loginButton {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+button, input[type="button"], input[type="submit"] {
+    box-shadow: 5px 5px 6px rgba(0, 0, 0, 0.3);
+}
+
+img {
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.1);
 }
