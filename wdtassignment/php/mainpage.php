@@ -125,32 +125,32 @@
                     Total participant: 12500
                     Total doantion amount: RM120000
                     <p>Detail</p></br>
-                    Event Name:
-                    Date:
-                    Location:
-                    Orgainzer:
+                    Event Name: Bollywood Dance Night for Diversity
+                    Date: 5 Sept 2023
+                    Location: Johor Bahru
+                    Orgainzer: Kavi Kumar Abdullah
                 </div>
                 <div class="HistoricalEvent">
                     <img src="https://blog.fetc.org/wp-content/uploads/fetc22_Facebook_1200X630_expo-1024x538.jpg" alt="Historical Event 2">
                     <h3>Event Achievement</h3></br>
-                    Total participant: 12500
-                    Total doantion amount: RM120000
+                    Total participant: 21400
+                    Total doantion amount: RM200000
                     <p>Detail</p></br>
-                    Event Name:
-                    Date:
-                    Location:
-                    Orgainzer:
+                    Event Name: Tech Expo for Education
+                    Date: 20 Oct 2023
+                    Location: Bukit Jalil
+                    Orgainzer: Muhammad Patel
                 </div>
                 <div class="HistoricalEvent">
                     <img src="https://www.uchicagomedicine.org/-/media/images/ucmc/forefront/channel-pages/news/universal/nascar-universal-832x469.jpg?h=385&as=1&hash=29013F3C74296465195EDF02D1B9F1F7" alt="Historical Event 3">
                     <h3>Event Achievement</h3></br>
-                    Total participant: 12500
-                    Total doantion amount: RM120000
+                    Total participant: 13500
+                    Total doantion amount: RM150000
                     <p>Detail</p></br>
-                    Event Name:
-                    Date:
-                    Location:
-                    Orgainzer:
+                    Event Name: Motorsports Weekend for Medical Research
+                    Date: 1 Nov 2023
+                    Location: Semenyih
+                    Orgainzer: Farah Krishnan
                 </div>
                 </div>
             </div>
