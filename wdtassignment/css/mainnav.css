@@ -192,11 +192,7 @@ figcaption {
     margin: 10px;
 }
 
-<<<<<<< Updated upstream
-.container a {
-=======
 .container a{
->>>>>>> Stashed changes
     color: #8d5524;
 }
 
@@ -397,13 +393,8 @@ footer {
 }
 
 .Profile-button:hover {
-<<<<<<< Updated upstream
-    background-color: #45a049;
-    color: white;
-=======
     background-color: #ffdbac;
     color: #45a049;
->>>>>>> Stashed changes
 }
 
 #loginButton{
@@ -417,7 +408,6 @@ footer {
 .logo{
     width: 0;
     height: 0;
-<<<<<<< Updated upstream
 }
 
 #mainnav, .eventbox, #DonateButton, .swiper .imgDonate, #AboutUs table, #donationForm, .donate, footer, .login-button, .Profile-button, #loginButton {
@@ -430,22 +420,17 @@ button, input[type="button"], input[type="submit"] {
 
 img {
     box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.1);
-<<<<<<< HEAD
-=======
->>>>>>> Stashed changes
-=======
 }
 
 .eventbox, #DonateButton, #AboutUs table, .donate,
 button, input[type="button"], input[type="submit"],
 img {
     transition: transform 0.2s ease-in-out;
-}
+};
 
 /* Define the hover effect */
 .eventbox:hover, #DonateButton:hover, #AboutUs table:hover,.donate:hover
 button:hover, input[type="button"]:hover, input[type="submit"]:hover,
 img:hover {
     transform: scale(1.05);
->>>>>>> 566bc0c42a9250422ab599b0688a75a2ad3e5cad
 }
