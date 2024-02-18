@@ -232,6 +232,11 @@ h1 {
     flex-grow: 1;
 }
 
+.HistoricalEvent h4{
+    text-align: center;
+    padding: 20px;
+}
+
 .HistoricalEvent p{
     text-align: center;
     padding: 20px;
