@@ -65,7 +65,7 @@
                         <h1>What We Do</h1>
                         <br>
                         <p>We are a organisation to help spread awareness about the importance of conservation of the environment</p>
-                        <a class="LearnMore" href="/ADollarAPlant/wdtassignment/html/AboutUs.html">Learn More>></a>
+                        <a class="LearnMore" href="http://127.0.0.1:5501/wdtassignment/html/aboutustest.html">Learn More>></a>
                     </td>
                 </tr>
             </table>
@@ -117,9 +117,8 @@
                 <h1>Historical Events</h1>
                 <div class="HistoricalEvent">
                     <img src="https://sammamishindependent.com/wp-content/uploads/2023/01/BollySteps-e1674094415390.jpg" alt="Historical Event 1">
-                    <h3>Event Achievement
-                        Name: Bollywood Dance Night for Diversity
-                    </h3>
+                    <h3>Event Achievement</h3>
+                    <h3>Name: Bollywood Dance Night for Diversity</h3>
                     <p>Detail</p>
                 </div>
                 <div class="HistoricalEvent">
