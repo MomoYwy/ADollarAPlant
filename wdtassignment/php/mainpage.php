@@ -78,33 +78,33 @@
                 <figure class="eventbox">
                     <img class="event_image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSj6ggI0FvRNTIuzjHs3gHoS05tEqULCDoU0fMFDOSr6tpuIDK8Q6KiVcn-NsamFKRzEho&usqp=CAU" alt="event_image">
                     <figcaption>
-                        <p>Name:</p>
-                        <p>Date:</p>
-                        <p>Location:</p>
-                        <p>Organizer:</p>
-                        <p>Description:</p>
+                        <p>Name: Outdoor Adventure Challenge</p>
+                        <p>Date: 20 Nov 2023</p>
+                        <p>Location: Bukit Bintang</p>
+                        <p>Organizer: Aisha Subramanian</p>
+                        <p>Description: </p>
                         <a class="LearnMore" href="">Learn More>></a>
                     </figcaption>
                 </figure>
                 <figure class="eventbox">
                     <img class="event_image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRr6v1TkMKtKGLQTDkjNN_DZ1DOFQatt1GeSgvf0D-O72OLf621s0-Cz_ePqHG7iujGbTU&usqp=CAU" alt="event_image">
                     <figcaption>
-                        <p>Name:</p>
-                        <p>Date:</p>
-                        <p>Location:</p>
-                        <p>Organizer:</p>
-                        <p>Description:</p>
+                        <p>Name: Culinary Arts Showcase for Charity</p>
+                        <p>Date: 12 Dec 2023</p>
+                        <p>Location: Johor Bahru</p>
+                        <p>Organizer: Kavi Kumar Abdullah</p>
+                        <p>Description: </p>
                         <a class="LearnMore" href="">Learn More>></a>
                     </figcaption>
                 </figure>
                 <figure class="eventbox">
                     <img class="event_image" src="https://timelyapp-static.time.ly/images/54704601/Sustainable%20living_bJwo.JPG" alt="event_image">
                     <figcaption>
-                        <p>Name:</p>
-                        <p>Date:</p>
-                        <p>Location:</p>
-                        <p>Organizer:</p>
-                        <p>Description:</p>
+                        <p>Name: Sustainable Living Workshop Series</p>
+                        <p>Date: 11 Jan 2024</p>
+                        <p>Location: Bukit Bintang</p>
+                        <p>Organizer: Aisha Subramanian</p>
+                        <p>Description: </p>
                         <a class="LearnMore" href="">Learn More>></a>
                     </figcaption>
                 </figure>
