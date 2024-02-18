@@ -59,17 +59,13 @@
         <div id="AboutUs" >
             <table height="600" width="85%">
                 <tr>
-<<<<<<< Updated upstream
                     <td width="50%" bgcolor="greenyellow">
-=======
-                    <td width="50%">
->>>>>>> Stashed changes
                         <img src="../image/tree2.avif" height="100%" width="100%" alt="image_1"></td>
                     <td>
                         <h1>What We Do</h1>
                         <br>
                         <p>We are a organisation to help spread awareness about the importance of conservation of the environment</p>
-                        <a class="LearnMore" href="http://127.0.0.1:5501/wdtassignment/html/aboutustest.html">Learn More>></a>
+                        <a class="LearnMore" href="/ADollarAPlant/wdtassignment/html/AboutUs.html">Learn More>></a>
                     </td>
                 </tr>
             </table>
@@ -119,39 +115,53 @@
             <!--Pass Events-->
             <div id="PassEvents">
                 <h1>Historical Events</h1>
+
                 <div class="HistoricalEvent">
                     <img src="https://sammamishindependent.com/wp-content/uploads/2023/01/BollySteps-e1674094415390.jpg" alt="Historical Event 1">
-                    <h3>Event Achievement</h3></br>
-                    Total participant: 12500
-                    Total doantion amount: RM120000
-                    <p>Detail</p></br>
-                    Event Name: Bollywood Dance Night for Diversity
-                    Date: 5 Sept 2023
-                    Location: Johor Bahru
-                    Orgainzer: Kavi Kumar Abdullah
+                    <div class="event-details">
+                        <h3>Event Achievement</h3>
+                        <p>Total participant: 12500</p>
+                        <p>Total donation amount: RM120000</p>
+                        <p>Details</p>
+                        <p>
+                            Event Name: Bollywood Dance Night for Diversity<br>
+                            Date: 5 Sept 2023<br>
+                            Location: Johor Bahru<br>
+                            Organizer: Kavi Kumar Abdullah
+                        </p>
+                    </div>
                 </div>
+
                 <div class="HistoricalEvent">
                     <img src="https://blog.fetc.org/wp-content/uploads/fetc22_Facebook_1200X630_expo-1024x538.jpg" alt="Historical Event 2">
-                    <h3>Event Achievement</h3></br>
-                    Total participant: 21400
-                    Total doantion amount: RM200000
-                    <p>Detail</p></br>
-                    Event Name: Tech Expo for Education
-                    Date: 20 Oct 2023
-                    Location: Bukit Jalil
-                    Orgainzer: Muhammad Patel
+                    <div class="event-details">
+                        <h3>Event Achievement</h3>
+                        <p>Total participant: 21400</p>
+                        <p>Total donation amount: RM200000</p>
+                        <p>Details</p>
+                        <p>
+                            Event Name: Tech Expo for Education<br>
+                            Date: 20 Oct 2023<br>
+                            Location: Bukit Jalil<br>
+                            Organizer: Muhammad Patel
+                        </p>
+                    </div>
                 </div>
+
                 <div class="HistoricalEvent">
                     <img src="https://www.uchicagomedicine.org/-/media/images/ucmc/forefront/channel-pages/news/universal/nascar-universal-832x469.jpg?h=385&as=1&hash=29013F3C74296465195EDF02D1B9F1F7" alt="Historical Event 3">
-                    <h3>Event Achievement</h3></br>
-                    Total participant: 13500
-                    Total doantion amount: RM150000
-                    <p>Detail</p></br>
-                    Event Name: Motorsports Weekend for Medical Research
-                    Date: 1 Nov 2023
-                    Location: Semenyih
-                    Orgainzer: Farah Krishnan
-                </div>
+                    <div class="event-details">
+                        <h3>Event Achievement</h3>
+                        <p>Total participant: 13500</p>
+                        <p>Total donation amount: RM150000</p>
+                        <p>Details</p>
+                        <p>
+                            Event Name: Motorsports Weekend for Medical Research<br>
+                            Date: 1 Nov 2023<br>
+                            Location: Semenyih<br>
+                            Organizer: Farah Krishnan
+                        </p>
+                    </div>
                 </div>
             </div>
 

@@ -66,19 +66,18 @@ body {
 
 #DonateButton {
     margin-top: 100px;
-    margin-left: 40px;
+    margin-left: 50px;
     float: left;
     display: flex;
     align-items: center;
     justify-content: center;
     width: 95%;
     height: 700px;
-    background-color: green;
 }
 
 .swiper {
     width: 100%;
-    height: 700px;
+    height: 1000px;
     overflow: hidden;
     position: relative;
 }
@@ -94,7 +93,7 @@ body {
     border-radius: 12px ;
     cursor: pointer;
     font-size: 35px;
-    top: 600px;
+    top: 900px;
     left: 800px;
     opacity: 1;
 }
@@ -106,11 +105,11 @@ body {
 }
 
 .swiper img {
-    max-width: 2800px;
-    max-height: 900px;
+    max-width: 100%;
+    max-height: 1000px;
     object-fit: contain;
     width: 100%;
-    height: 700px;
+    height: 1000px;
     position: absolute;
     opacity: 0;
     transition: opacity 1s;
@@ -209,33 +208,37 @@ h1 {
 .HistoricalEvent {
     background-color: #66492f;
     width: 80%;
-    height: 30%;
-    margin: 0 auto;
+    margin: 20px auto;
     display: flex;
-    flex-direction: row-reverse;
     border: 1.5px solid #fff;
 }
 
 .HistoricalEvent:nth-child(even) {
-    flex-direction: row;
+    flex-direction: row-reverse;
 }
 
 .HistoricalEvent img {
     width: 30%;
     max-height: 300px;
     height: auto;
+    object-fit: cover;
 }
 
-.HistoricalEvent h3{
-    text-align: center;
-    padding: 20px;
+.HistoricalEvent .event-details {
     flex-grow: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #fff;
 }
 
-.HistoricalEvent p{
+.HistoricalEvent h3, .HistoricalEvent p {
     text-align: center;
-    padding: 20px;
-    flex-grow: 1;
+}
+
+.HistoricalEvent p {
+    margin: 10px 0;
 }
 
 #donation {
@@ -410,7 +413,7 @@ footer {
     height: 0;
 }
 
-#mainnav, .eventbox, #DonateButton, .swiper .imgDonate, #AboutUs table, #donationForm, .donate, footer, .login-button, .Profile-button, #loginButton {
+#mainnav, .eventbox, .swiper .imgDonate, #AboutUs table, #donationForm, .donate, footer, .login-button, .Profile-button, #loginButton {
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
 }
 
@@ -422,15 +425,10 @@ img {
     box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.1);
 }
 
-.eventbox, #DonateButton, #AboutUs table, .donate,
-button, input[type="button"], input[type="submit"],
-img {
+.eventbox, #DonateButton, #AboutUs table, .donate, button, input[type="button"], input[type="submit"], img {
     transition: transform 0.2s ease-in-out;
 };
 
-/* Define the hover effect */
-.eventbox:hover, #DonateButton:hover, #AboutUs table:hover,.donate:hover
-button:hover, input[type="button"]:hover, input[type="submit"]:hover,
-img:hover {
+.eventbox:hover, #DonateButton:hover, #AboutUs table:hover,.donate:hover button:hover, input[type="button"]:hover, input[type="submit"]:hover, img:hover {
     transform: scale(1.05);
 }
