@@ -108,7 +108,7 @@
                         <a class="LearnMore" href="">Learn More>></a>
                     </figcaption>
                 </figure>
-                <a float="right" href="">More Events>></a>
+                <a float="right" href="http://localhost/ADollarAPlant/wdtassignment/php/eventpage.php">More Events>></a>
             </div>
         </div>
 
