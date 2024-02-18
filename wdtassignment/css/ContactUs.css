@@ -68,9 +68,9 @@ body {
   margin-bottom:10px;
 }
 .contact-form .second-container form .form-group *{
-   min-height: 55px;
-   border:1px solid #e6e6e6;
-   padding:0 20px;
+    min-height: 55px;
+    border:1px solid #e6e6e6;
+    padding:0 20px;
 }
 .contact-form .second-container form .form-group label{
   display:flex;
@@ -135,5 +135,3 @@ body {
     padding:40px 0;
   }
 }
-
-    

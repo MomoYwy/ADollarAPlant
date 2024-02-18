@@ -82,37 +82,37 @@
                 <figure class="eventbox">
                     <img class="event_image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSj6ggI0FvRNTIuzjHs3gHoS05tEqULCDoU0fMFDOSr6tpuIDK8Q6KiVcn-NsamFKRzEho&usqp=CAU" alt="event_image">
                     <figcaption>
-                        <p>Name:</p>
-                        <p>Date:</p>
-                        <p>Location:</p>
-                        <p>Organizer:</p>
-                        <p>Description:</p>
+                        <p>Name: Outdoor Adventure Challenge</p>
+                        <p>Date: 20 Nov 2023</p>
+                        <p>Location: Bukit Bintang</p>
+                        <p>Organizer: Aisha Subramanian</p>
+                        <p>Description: Get ready to blaze new trails and cultivate a deeper connection with nature at our Outdoor Adventure Challenge event. This unique experience combines the thrill of outdoor exploration with the mission of nurturing environmental stewardship through a plant charity initiative.</p>
                         <a class="LearnMore" href="">Learn More>></a>
                     </figcaption>
                 </figure>
                 <figure class="eventbox">
                     <img class="event_image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRr6v1TkMKtKGLQTDkjNN_DZ1DOFQatt1GeSgvf0D-O72OLf621s0-Cz_ePqHG7iujGbTU&usqp=CAU" alt="event_image">
                     <figcaption>
-                        <p>Name:</p>
-                        <p>Date:</p>
-                        <p>Location:</p>
-                        <p>Organizer:</p>
-                        <p>Description:</p>
+                        <p>Name: Culinary Arts Showcase for Charity</p>
+                        <p>Date: 12 Dec 2023</p>
+                        <p>Location: Johor Bahru</p>
+                        <p>Organizer: Kavi Kumar Abdullah</p>
+                        <p>Description: This eagerly anticipated event brings together renowned chefs, food enthusiasts, and philanthropists for an unforgettable evening of gourmet cuisine, fine wine, and charitable giving.</p>
                         <a class="LearnMore" href="">Learn More>></a>
                     </figcaption>
                 </figure>
                 <figure class="eventbox">
                     <img class="event_image" src="https://timelyapp-static.time.ly/images/54704601/Sustainable%20living_bJwo.JPG" alt="event_image">
                     <figcaption>
-                        <p>Name:</p>
-                        <p>Date:</p>
-                        <p>Location:</p>
-                        <p>Organizer:</p>
-                        <p>Description:</p>
+                        <p>Name: Sustainable Living Workshop Series</p>
+                        <p>Date: 11 Jan 2024</p>
+                        <p>Location: Bukit Bintang</p>
+                        <p>Organizer: Aisha Subramanian</p>
+                        <p>Description: This is a transformative workshop series hosted by our Plant Charity Initiative, dedicated to equipping individuals with the knowledge and skills needed to embrace sustainable living practices. Join us on our journey to a greener, greener future.</p>
                         <a class="LearnMore" href="">Learn More>></a>
                     </figcaption>
                 </figure>
-                <a float="right" href="">More Events>></a>
+                <a float="right" href="http://localhost/ADollarAPlant/wdtassignment/php/eventpage.php">More Events>></a>
             </div>
         </div>
 
@@ -122,6 +122,7 @@
                 <div class="HistoricalEvent">
                     <img src="https://sammamishindependent.com/wp-content/uploads/2023/01/BollySteps-e1674094415390.jpg" alt="Historical Event 1">
                     <h3>Event Achievement</h3>
+                    <h4>Total participant: 12500 people</h4>
                     <p>Detail</p>
                 </div>
                 <div class="HistoricalEvent">

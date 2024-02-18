@@ -20,7 +20,6 @@
         exit();
     }
 
-    // Retrieve user data from the session
     $user = $_SESSION["user_data"];
     ?>
 

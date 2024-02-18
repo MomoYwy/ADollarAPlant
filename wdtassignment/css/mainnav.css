@@ -95,7 +95,7 @@ body {
     cursor: pointer;
     font-size: 35px;
     top: 600px;
-    left: 575px;
+    left: 800px;
     opacity: 1;
 }
 
@@ -106,6 +106,9 @@ body {
 }
 
 .swiper img {
+    max-width: 2800px;
+    max-height: 900px;
+    object-fit: contain;
     width: 100%;
     height: 700px;
     position: absolute;
@@ -184,7 +187,7 @@ body {
 }
 
 figcaption {
-    width: 150px;
+    width: 550px;
     height: 350px;
     margin: 10px;
 }
@@ -231,6 +234,12 @@ h1 {
     text-align: center;
     padding: 20px;
     flex-grow: 1;
+}
+
+.HistoricalEvent h4{
+    text-align: center;
+    position: absolute;
+    top: 40px;
 }
 
 .HistoricalEvent p{
@@ -427,6 +436,22 @@ button, input[type="button"], input[type="submit"] {
 
 img {
     box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.1);
+<<<<<<< HEAD
 =======
 >>>>>>> Stashed changes
+=======
+}
+
+.eventbox, #DonateButton, #AboutUs table, .donate,
+button, input[type="button"], input[type="submit"],
+img {
+    transition: transform 0.2s ease-in-out;
+}
+
+/* Define the hover effect */
+.eventbox:hover, #DonateButton:hover, #AboutUs table:hover,.donate:hover
+button:hover, input[type="button"]:hover, input[type="submit"]:hover,
+img:hover {
+    transform: scale(1.05);
+>>>>>>> 566bc0c42a9250422ab599b0688a75a2ad3e5cad
 }

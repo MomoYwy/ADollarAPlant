@@ -1,4 +1,4 @@
 function backHome() {
     // Redirect to the home page
-    window.location.href = '/ADollarAPlant/wdtassignment/html/mainpage.html';
+    window.location.href = '/ADollarAPlant/wdtassignment/php/mainpage.php';
 };
