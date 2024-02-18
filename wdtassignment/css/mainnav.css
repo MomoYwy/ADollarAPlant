@@ -234,8 +234,8 @@ h1 {
 
 .HistoricalEvent h4{
     text-align: center;
-    padding: 20px;
-    flex-grow: 2;
+    position: absolute;
+    top: 40px;
 }
 
 .HistoricalEvent p{
