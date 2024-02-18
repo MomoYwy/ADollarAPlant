@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    transition: all .2s linear;
+}
+
+.container{
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    min-height: 100vh;
+    background: linear-gradient(90deg, #2ecc71 60%, #27ae60 40.1%);
+    padding-bottom: 70px;
+}
+
+.container .row{
+    padding: 25px;
+    width: 300px;
+    background: #fff;
+    box-shadow: 0 5px 10px #000;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.container .row .column .title{
+    text-align: center;
+    font-size: 45px;
+    color: #0d9f4a;
+    padding-bottom: 5px;
+}
+
+.container .row .column .pic img{
+    width: 40%;
+    height: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container .row .column .text{
+    text-align: center;
+    font-size: 25px;
+    color: #006e2e;
+    padding-bottom: 20px;
+}
+
+.container .row .column .text1{
+    text-align: center;
+    font-size: 18px;
+    color: #004a1f;
+    padding-bottom: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.container .row .column .receipt{
+    text-align: center;
+    font-size: 15px;
+    color: #002e13;
+    padding-bottom: 5px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.container .row .backHome{
+    margin: auto;
+    font-size: 17px;
+    cursor: pointer;
+    margin-top: 10px;
+    width: 50%;
+    height: 40px;
+    background: antiquewhite;
+    color: #000;
+}
+
+.container .row .backHome:hover{
+    background: rgb(255, 202, 132);
+}

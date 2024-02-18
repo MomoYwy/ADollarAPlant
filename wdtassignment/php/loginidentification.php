@@ -28,7 +28,11 @@ if ($result->num_rows > 0) {
     header("Location: /ADollarAPlant/wdtassignment/php/mainpage.php");
     exit();
 } else {
-    $response = array("success" => false, "message" => "Incorrect username or password");
+    echo "<script>";
+    echo "alert('Login unsuccessful. Please check your credentials.');";
+    echo "window.location.href='/ADollarAPlant/wdtassignment/html/loginUnsuccessful.html';";
+    echo "</script>";
+    exit();
 }
 
 $connection->close();
