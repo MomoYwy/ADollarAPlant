@@ -38,11 +38,17 @@ function onLoginSuccess() {
 }
 
 function checkPasswordMatch() {
+    console.log("Function called");
     var password = document.getElementById("password").value;
     var confirmPassword = document.getElementById("Confirmpassword").value;
+    console.log("Password:", password);
+    console.log("Confirm Password:", confirmPassword);
+
     var matchSpan = document.getElementById("passwordMatch");
 
-    if (password === confirmPassword) {
+    if (confirmPassword.length === 0) {
+        matchSpan.innerHTML = "";
+    } else if (password === confirmPassword) {
         matchSpan.innerHTML = "Passwords match!";
         matchSpan.style.color = "green";
     } else {

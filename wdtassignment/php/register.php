@@ -29,7 +29,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     // Execute the SQL query
     if ($connection->query($sql) === TRUE) {
-        header("Location: /ADollarAPlant/wdtassignment/html/registersucessful.html");
+        header("Location: /ADollarAPlant/wdtassignment/html/registersuccessful.html");
         exit();
     } else {
         echo "Error: " . $sql . "<br>" . $connnection->error;

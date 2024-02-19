@@ -24,7 +24,7 @@
     $user = $_SESSION["user_data"];
     ?>
     <div class="container">
-    <a href="/ADollarAPlant/wdtassignment/php/editprofile.php">Back</a>
+    <a href="/ADollarAPlant/wdtassignment/php/mainpage.php">Back</a>
         <div class="profile">
             <img src="" alt="ProfileImage">
             <p>Username: <?php echo $user["Username"]; ?></p>
